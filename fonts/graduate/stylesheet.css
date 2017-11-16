@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'graduateregular';
+    src: url('graduate-regular-webfont.eot');
+    src: url('graduate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('graduate-regular-webfont.woff2') format('woff2'),
+         url('graduate-regular-webfont.woff') format('woff'),
+         url('graduate-regular-webfont.ttf') format('truetype'),
+         url('graduate-regular-webfont.svg#graduateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

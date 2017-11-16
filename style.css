@@ -1,0 +1,129 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 2;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 0 20px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  margin-right: -30px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family:Graduate;
+  src:url('fonts/graduate/graduate-regular-webfont.eot') format('eot'),
+  url('fonts/graduate/graduate-regular-webfont.svg') format('svg'),
+  url('fonts/graduate/graduate-regular-webfont.ttf') format('ttf'),
+  url('fonts/graduate/graduate-regular-webfont.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family:Abel;
+  src:url('fonts/abel/abel-regular-webfont.eot') format('eot'),
+  url('fonts/abel/abel-regular-webfont.svg') format('svg'),
+  url('fonts/abel/abel-regular-webfont.ttf') format('ttf'),
+  url('fonts/abel/abel-regular-webfont.woff') format('woff');
+  font-weight: normal;
+}
+header h1{
+  font: italic 3.5em Graduate, sans-serif, serif;
+  text-align: center;
+}
+
+h1,h2{
+  letter-spacing: 5px;
+}
+
+h2 + p{
+  text-indent: 30px;
+}
+
+aside a:hover{
+  color:#ff00ff;
+  font-size:16px;
+  text-decoration: dotted;
+  border-bottom: 1px #ff00ff dotted;
+}
+
+aside a:focus,
+aside a:hover{
+  text-decoration:none;
+}
+
+aside a:active{
+  font-size: 1.2em;
+  color:#ccc;
+}
+li{
+  line-height: 2;
+  word-spacing: 1px;
+}
+section p a{
+  background: url(external-link1.png) no-repeat;
+  background-position: right;
+  padding-right: 17px
+}
+
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  padding:7px;
+  font-size:1.3em;
+  border: 2px solid #DA6AC9;
+  margin-top: 20px;
+  text-align: center;
+}
+nav ul li a{
+  text-decoration: none;
+  font: italic 1.5em bolder;
+  color: #DA6AC9;
+}
+p{
+  font-family: Abel, monospace, serif,sans-serif;
+  font-size:1.3em;
+}
+footer{
+  text-align: center;
+}
